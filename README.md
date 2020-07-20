@@ -340,13 +340,19 @@ real-time through a webcam.
 
 >Accuracy per epoch plot
 <img src="Results/Accuracy_per_epoch.png" width=50% height=50%>
+
 ---
+
 >Loss per epoch plot
 <img src="Results/Loss_per_epoch.png" width=50% height=50%>
+
 ---
+
 >Neutral emotion detected by the model through webcam.
 <img src="Results/Neutral_(webcam).png" width=50% height=50%>
+
 ---
+
 Happy emotion detected by the model through webcam.
 <img src="Results/Happy_(webcam).png" width=50% height=50%>
 ---
