@@ -20,174 +20,49 @@ Flask.*
 
 A facial recognition system is a technology capable of identifying or verifying a person from a digital image or a video frame from a video source. There are multiple methods in which facial recognition systems work, but in general, they work by comparing selected facial features from given image with faces within a database. It is also described as a Biometric Artificial Intelligence based application that can uniquely identify a person by analyzing patterns based on the person's facial textures and shape.
 
-Face recognition systems use computer algorithms to pick out specific,
-distinctive details about a person's face. These details, such as
-distance between the eyes or shape of the chin, are then converted into
-a mathematical representation and compared to data on other faces
-collected in a face recognition database. The data about a particular
-face is often called a face template and is distinct from a photograph
-because it's designed to only include certain details that can be used
-to distinguish one face from another. 
+Face recognition systems use computer algorithms to pick out specific, distinctive details about a person’s face. These details, such as distance between the eyes or shape of the chin, are then converted into a mathematical representation and compared to data on other faces collected in a face recognition database. The data about a particular face is often called a face template and is distinct from a photograph because it’s designed to only include certain details that can be used to distinguish one face from another. 
 
-Some face recognition systems, instead of positively identifying an
-unknown person, are designed to calculate a probability match score
-between the unknown person and specific face templates stored in the
-database. These systems will offer up several potential matches, ranked
-in order of likelihood of correct identification, instead of just
-returning a single result. 
+Some face recognition systems, instead of positively identifying an unknown person, are designed to calculate a probability match score between the unknown person and specific face templates stored in the database. These systems will offer up several potential matches, ranked in order of likelihood of correct identification, instead of just returning a single result. 
 
-Face recognition systems vary in their ability to identify people under
-challenging conditions such as poor lighting, low quality image
-resolution, and suboptimal angle of view (such as in a photograph taken
-from above looking down on an unknown person). Face recognition data can
-also be prone to error, which can implicate people for crimes they
-haven't committed. Facial recognition software is particularly bad at
-recognizing African Americans and other ethnic minorities, women, and
-young people, often misidentifying or failing to identify them,
-disparately impacting certain groups.
+Face recognition systems vary in their ability to identify people under challenging conditions such as poor lighting, low quality image resolution, and suboptimal angle of view (such as in a photograph taken from above looking down on an unknown person). Face recognition data can also be prone to error, which can implicate people for crimes they haven’t committed. Facial recognition software is particularly bad at recognizing African Americans and other ethnic minorities, women, and young people, often misidentifying or failing to identify them, disparately impacting certain groups.
 
-Additionally, face recognition has been used to target people [engaging
-in protected
-speech](http://www.baltimoresun.com/news/maryland/crime/bs-md-geofeedia-update-20161011-story.html).
-In the near future, face recognition technology will likely become more
-ubiquitous. It may be used to track individuals' movements out in the
-world like automated license plate readers track vehicles by plate
-numbers. Real-time face recognition is already being used in [other
-countries](http://www.scmp.com/news/china/society/article/2115094/china-build-giant-facial-recognition-database-identify-any)
-and even at [sporting
-events](https://www.sporttechie.com/facial-recognition-technology-tested-lpga-nhl-next/)
-in the United States.
+Additionally, face recognition has been used to target people engaging in protected speech. In the near future, face recognition technology will likely become more ubiquitous. It may be used to track individuals’ movements out in the world like automated license plate readers track vehicles by plate numbers. Real-time face recognition is already being used in other countries and even at sporting events in the United States.
 
-In this project a convolutional neural network (CNN) is built and
-trained in Keras to recognize facial expressions. The dataset consists
-of 48x48 pixel grayscale images of faces. Each face is classified based
-on the emotion shown in the facial expression into one of seven
-categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise,
-6=Neutral). OpenCV is used to automatically detect faces in images and
-draw bounding boxes around them. Once trained, the CNN, will directly
-serve the trained model predictions to a web interface and perform
-real-time facial expression recognition on video and image data.
+In this project a convolutional neural network (CNN) is built and trained in Keras to recognize facial expressions. The dataset consists of 48x48 pixel grayscale images of faces. Each face is classified based on the emotion shown in the facial expression into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). OpenCV is used to automatically detect faces in images and draw bounding boxes around them. Once trained, the CNN, will directly serve the trained model predictions to a web interface and perform real-time facial expression recognition on video and image data.
 
 2.  **TOOLS USED**
 
   **TensorFlow**
 
-TensorFlow is a [free](https://en.wikipedia.org/wiki/Free_software) and
-[open-source](https://en.wikipedia.org/wiki/Open-source_software)
-[software library](https://en.wikipedia.org/wiki/Library_(computing))
-for [dataflow](https://en.wikipedia.org/wiki/Dataflow_programming) and
-[differentiable](https://en.wikipedia.org/wiki/Differentiable_programming)
-programming across a range of tasks. It is a symbolic math library, and
-is also used for [machine
-learning](https://en.wikipedia.org/wiki/Machine_learning) applications
-such as [neural
-networks](https://en.wikipedia.org/wiki/Neural_networks). It is used for
-both research and production at
-[Google](https://en.wikipedia.org/wiki/Google).‍
+TensorFlow is a free and open-source software library for dataflow and differentiable programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks. It is used for both research and production at Google.
 
   **Keras**
 
-Keras is an
-[open-source](https://en.wikipedia.org/wiki/Open-source_software)
-[neural-network](https://en.wikipedia.org/wiki/Artificial_neural_network)
-library written in
-[Python](https://en.wikipedia.org/wiki/Python_(programming_language)).
-It is capable of running on top of
-[TensorFlow](https://en.wikipedia.org/wiki/TensorFlow), [Microsoft
-Cognitive
-Toolkit](https://en.wikipedia.org/wiki/Microsoft_Cognitive_Toolkit),
-[R](https://en.wikipedia.org/wiki/R_(programming_language)),
-[Theano](https://en.wikipedia.org/wiki/Theano_(software)), or
-[PlaidML](https://en.wikipedia.org/wiki/PlaidML). Designed to enable
-fast experimentation with [deep neural
-networks](https://en.wikipedia.org/wiki/Deep_learning), it focuses on
-being user-friendly, modular, and extensible. It was developed as part
-of the research effort of project ONEIROS (Open-ended Neuro-Electronic
-Intelligent Robot Operating System), and its primary author and
-maintainer is François Chollet, a
-[Google](https://en.wikipedia.org/wiki/Google) engineer. Chollet also is
-the author of the XCeption deep neural network model.
+Keras is an open-source neural-network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, R, Theano, or PlaidML. Designed to enable fast experimentation with deep neural networks, it focuses on being user-friendly, modular, and extensible. It was developed as part of the research effort of project ONEIROS (Open-ended Neuro-Electronic Intelligent Robot Operating System), and its primary author and maintainer is François Chollet, a Google engineer. Chollet also is the author of the XCeption deep neural network model. 
 
-Keras is based on minimal structure that provides a clean and easy way
-to create deep learning models based on TensorFlow or Theano. Keras is
-designed to quickly define deep learning models. Well, Keras is an
-optimal choice for deep learning applications.
+Keras is based on minimal structure that provides a clean and easy way to create deep learning models based on TensorFlow or Theano. Keras is designed to quickly define deep learning models. Well, Keras is an optimal choice for deep learning applications.
+
 
   **OpenCV**
 
-OpenCV (Open Source Computer Vision Library) is a [library of
-programming
-functions](https://en.wikipedia.org/wiki/Library_(computing)) mainly
-aimed at real-time [computer
-vision](https://en.wikipedia.org/wiki/Computer_vision). Originally
-developed by [Intel](https://en.wikipedia.org/wiki/Intel_Corporation),
-it was later supported by [Willow
-Garage](https://en.wikipedia.org/wiki/Willow_Garage) then Itseez (which
-was later acquired by Intel). The library is
-[cross-platform](https://en.wikipedia.org/wiki/Cross-platform) and free
-for use under the
-[open-source](https://en.wikipedia.org/wiki/Open-source_software) [BSD
-license](https://en.wikipedia.org/wiki/BSD_license).
+OpenCV (Open Source Computer Vision Library) is a library of programming functions mainly aimed at real-time computer vision. Originally developed by Intel, it was later supported by Willow Garage then Itseez (which was later acquired by Intel). The library is cross-platform and free for use under the open-source BSD license.
+OpenCV is a cross-platform library using which we can develop real-time computer vision applications. It mainly focuses on image processing, video capture and analysis including features like face detection and object detection. Computer Vision can be defined as a discipline that explains how to reconstruct, interrupt, and understand a 3D scene from its 2D images, in terms of the properties of the structure present in the scene. It deals with modeling and replicating human vision using computer software and hardware.
 
-OpenCV is a cross-platform library using which we can develop
-real-time computer vision applications. It mainly focuses on image
-processing, video capture and analysis including features like face
-detection and object detection. Computer Vision can be defined as a
-discipline that explains how to reconstruct, interrupt, and understand a
-3D scene from its 2D images, in terms of the properties of the structure
-present in the scene. It deals with modeling and replicating human
-vision using computer software and hardware.
 
   **Flask**
 
-Flask is a micro [web
-framework](https://en.wikipedia.org/wiki/Web_framework) written in
-[Python](https://en.wikipedia.org/wiki/Python_(programming_language)).
-It is classified as a
-[microframework](https://en.wikipedia.org/wiki/Microframework) because
-it does not require particular tools or libraries. It has no database
-abstraction layer, form validation, or any other components where
-pre-existing third-party libraries provide common functions. However,
-Flask supports extensions that can add application features as if they
-were implemented in Flask itself. Extensions exist for object-relational
-mappers, form validation, upload handling, various open authentication
-technologies and several common framework related tools. Extensions are
-updated far more frequently than the core Flask program. Applications
-that use the Flask framework include
-[Pinterest](https://en.wikipedia.org/wiki/Pinterest) and
-[LinkedIn](https://en.wikipedia.org/wiki/LinkedIn).
+Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools. Extensions are updated far more frequently than the core Flask program. Applications that use the Flask framework include Pinterest and LinkedIn.
+Web Server Gateway Interface (WSGI) has been adopted as a standard for Python web application development. WSGI is a specification for a universal interface between the web server and the web applications. Werkzeug is a WSGI toolkit, which implements requests, response objects, and other utility functions. This enables building a web framework on top of it. The Flask framework uses Werkzeug as one of its bases.
 
-Web Server Gateway Interface (WSGI) has been adopted as a standard for
-Python web application development. WSGI is a specification for a
-universal interface between the web server and the web applications.
-Werkzeug is a WSGI toolkit, which implements requests, response objects,
-and other utility functions. This enables building a web framework on
-top of it. The Flask framework uses Werkzeug as one of its bases.
 
   **Jupyter**
 
-Project Jupyter is a [non-profit
-organization](https://en.wikipedia.org/wiki/Nonprofit_organization)
-created to \"develop [open-source
-software](https://en.wikipedia.org/wiki/Open-source_software),
-open-standards, and services for [interactive
-computing](https://en.wikipedia.org/wiki/Interactive_computing) across
-dozens of programming languages\".
+Project Jupyter is a non-profit organization created to "develop open-source software, open-standards, and services for interactive computing across dozens of programming languages". 
+As a server-client application, the Jupyter Notebook App allows to edit and run notebooks via a web browser. The application can be executed on a PC without Internet access, or it can be installed on a remote server, where it can be accessed through the Internet.
+Its two main components are the kernels and a dashboard.
+A kernel is a program that runs and introspects the user’s code. The Jupyter Notebook App has a kernel for Python code, but there are also kernels available for other programming languages.
+The dashboard of the application not only shows the notebook documents that have been made and can reopen but can also be used to manage the running kernels and shut them down if necessary.
 
-As a server-client application, the Jupyter Notebook App allows to
-edit and run notebooks via a web browser. The application can be
-executed on a PC without Internet access, or it can be installed on a
-remote server, where it can be accessed through the Internet.
-
-Its two main components are the kernels and a dashboard.
-
-A kernel is a program that runs and introspects the user's code. The
-Jupyter Notebook App has a kernel for Python code, but there are also
-kernels available for other programming languages.
-
-The dashboard of the application not only shows the notebook documents
-that have been made and can reopen but can also be used to manage the
-running kernels and shut them down if necessary.
 
 
 3.  **DATASET**
@@ -282,7 +157,7 @@ or after a single batch, etc). First callback is ReduceLROnPlateau which
 reduces the learning rate when there is no improvement in the validation
 loss after two epochs. ModelCheckpoint callback is used to save the
 model weights with higher validation accuracy. Model weights are saved
-to [HDF5 format](http://www.h5py.org/). This is a grid format that is
+to HDF5 format. This is a grid format that is
 ideal for storing multi-dimensional arrays of numbers. PlotLossesKerasTF
 is used to observe the training loss per epoch and the accuracy per
 epoch plots in real time. Each epoch takes around 9-10 minutes. The
