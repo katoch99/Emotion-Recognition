@@ -339,7 +339,7 @@ real-time through a webcam.
 
 5.  **OUTCOME**
 
-![](../Results/Accuracy per epoch.png){width="5.2125in"
+![](Results/Accuracy%20per%20epoch.png){width="5.2125in"
 height="3.6944444444444446in"}![](Results/Loss per epoch.png){width="5.2034722222222225in"
 height="3.53125in"}**\
 **
@@ -435,6 +435,8 @@ In this project, we have constructed a CNN model to recognize facial
 expressions of human beings. The Model produces an accuracy rate of
 about 64%. This can be used to detect emotions in a locally stored video
 file or real-time through the webcam feed.
+
+![](Results/Accuracy and loss.png)
 
   ---------- ---------- ------------
              Training   Validation
