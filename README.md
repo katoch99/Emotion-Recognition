@@ -44,8 +44,7 @@ Web Server Gateway Interface (WSGI) has been adopted as a standard for Python we
 Project Jupyter is a non-profit organization created to "develop open-source software, open-standards, and services for interactive computing across dozens of programming languages". 
 As a server-client application, the Jupyter Notebook App allows to edit and run notebooks via a web browser. The application can be executed on a PC without Internet access, or it can be installed on a remote server, where it can be accessed through the Internet.
 Its two main components are the kernels and a dashboard.
-A kernel is a program that runs and introspects the user’s code. The Jupyter Notebook App has a kernel for Python code, but there are also kernels available for other programming languages.
-The dashboard of the application not only shows the notebook documents that have been made and can reopen but can also be used to manage the running kernels and shut them down if necessary.
+A kernel is a program that runs and introspects the user’s code. The Jupyter Notebook App has a kernel for Python code, but there are also kernels available for other programming languages. The dashboard of the application not only shows the notebook documents that have been made and can reopen but can also be used to manage the running kernels and shut them down if necessary.
 
 
 
