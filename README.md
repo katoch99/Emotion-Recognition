@@ -353,27 +353,27 @@ real-time through a webcam.
 
 ---
 
-Happy emotion detected by the model through webcam.
+>Happy emotion detected by the model through webcam.
 <img src="Results/Happy_(webcam).png" width=50% height=50%>
 
 ---
 
-Disgust emotion detected by the model on a local video.
+>Disgust emotion detected by the model on a local video.
 <img src="Results/Disgust_(video).png" width=50% height=50%>
 
 ---
 
-Sad emotion detected by the model on a local video.
+>Sad emotion detected by the model on a local video.
 <img src="Results/Sad_(video).png" width=50% height=50%>
 
 ---
 
-Surprise emotion detected by the model on a local video.
+>Surprise emotion detected by the model on a local video.
 <img src="Results/Surprise_(video).png" width=50% height=50%>
 
 ---
 
-Happy emotion detected by the model on a local video.
+>Happy emotion detected by the model on a local video.
 <img src="Results/Happy_(video).png" width=50% height=50%>
 
 
@@ -383,10 +383,8 @@ Happy emotion detected by the model on a local video.
 
 There is a worrying cause of concern as many government-established
 facial recognition surveillance systems have reported high error rates.
-Facial recognition software has also proven to be [biased against people
-of
-colour](https://www.theverge.com/2018/2/11/17001218/facial-recognition-software-accuracy-technology-mit-white-men-black-women-error).
-There is a lot of concern against this issue as this may result in the
+Facial recognition software has also proven to be biased against people
+of colour. There is a lot of concern against this issue as this may result in the
 exploitation of minorities when the technology becomes more mainstream.
 
   **Lack of user consent**
