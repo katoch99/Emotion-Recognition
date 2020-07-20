@@ -278,8 +278,7 @@ speeds up the training to about 9 minutes per epoch. model.summary()
 function is used to output all the parameters which the Model will have
 to learn (around 3 million in this case).
 
-![](Results/CNN.png){width="6.268055555555556in"
-height="1.5347222222222223in"}
+<img src="Results/CNN.png">
 
 4.  **Training and evaluating the Model**
 
@@ -339,31 +338,30 @@ real-time through a webcam.
 
 5.  **OUTCOME**
 
-<img src="/Results/Neutral_(webcam)" alt="neutral"	title="face" width="150" height="100" />
+>Accuracy per epoch plot
+<img src="Results/Accuracy_per_epoch.png" width=50% height=50%>
+---
+>Loss per epoch plot
+<img src="Results/Loss_per_epoch.png" width=50% height=50%>
+---
+>Neutral emotion detected by the model through webcam.
+<img src="Results/Neutral_(webcam).png" width=50% height=50%>
+---
+Happy emotion detected by the model through webcam.
+<img src="Results/Happy_(webcam).png" width=50% height=50%>
+---
+Disgust emotion detected by the model on a local video.
+<img src="Results/Disgust_(video).png" width=50% height=50%>
+---
+Sad emotion detected by the model on a local video.
+<img src="Results/Sad_(video).png" width=50% height=50%>
+---
+Surprise emotion detected by the model on a local video.
+<img src="Results/Surprise_(video).png" width=50% height=50%>
+---
+Happy emotion detected by the model on a local video.
+<img src="Results/Happy_(video).png" width=50% height=50%>
 
-![](Results/Accuracy_per_epoch.png){:height="50%" width="50%"}
-
-![](Results/Loss_per_epoch.png){:height="50%" width="50%"}
-
-![](Results/Neutral_(webcam).png){:height="50%" width="50%"}
-
-![](Results/Happy_(webcam).png){:height="50%" width="50%"}
-
-
-**![](Results/Disgust_(video).png){width="6.268055555555556in"
-height="3.345138888888889in"}![](Results/Sad_(video).png){width="6.268055555555556in"
-height="3.345238407699038in"}**\
-**
-
-![](Results/Surprise_(video).png){width="6.268055555555556in"
-height="3.36875in"}![](Results/Happy_(video).png){width="6.268055555555556in"
-height="3.3333333333333335in"}**\
-**
-
-img[alt=thumbnail] {
-   width:150px;
-   height:100px;
-}
 
 6.  **THREATS POSED BY FACIAL RECOGNITION**
 
@@ -442,7 +440,7 @@ expressions of human beings. The Model produces an accuracy rate of
 about 64%. This can be used to detect emotions in a locally stored video
 file or real-time through the webcam feed.
 
-![](Results/Accuracy_and_loss.png)
+<img src="Results/Accuracy_and_loss.png">
 
   ---------- ---------- ------------
              Training   Validation
