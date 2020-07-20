@@ -18,19 +18,7 @@ Flask.*
 
 1.  **INTRODUCTION**
 
-A facial recognition system is a technology capable of
-[identifying](https://en.wikipedia.org/wiki/Identification_of_human_individuals)
-or [verifying](https://en.wikipedia.org/wiki/Authentication) a person
-from a [digital image](https://en.wikipedia.org/wiki/Digital_image) or a
-[video frame](https://en.wikipedia.org/wiki/Film_frame) from a video
-source. There are multiple methods in which facial recognition systems
-work, but in general, they work by comparing selected [facial
-features](https://en.wikipedia.org/wiki/Face) from given image with
-faces within a
-[database](https://en.wikipedia.org/wiki/Database_management_system). It
-is also described as a Biometric Artificial Intelligence based
-application that can uniquely identify a person by analyzing patterns
-based on the person\'s facial textures and shape.
+A facial recognition system is a technology capable of identifying or verifying a person from a digital image or a video frame from a video source. There are multiple methods in which facial recognition systems work, but in general, they work by comparing selected facial features from given image with faces within a database. It is also described as a Biometric Artificial Intelligence based application that can uniquely identify a person by analyzing patterns based on the person's facial textures and shape.
 
 Face recognition systems use computer algorithms to pick out specific,
 distinctive details about a person's face. These details, such as
