@@ -355,23 +355,31 @@ real-time through a webcam.
 
 Happy emotion detected by the model through webcam.
 <img src="Results/Happy_(webcam).png" width=50% height=50%>
+
 ---
+
 Disgust emotion detected by the model on a local video.
 <img src="Results/Disgust_(video).png" width=50% height=50%>
+
 ---
+
 Sad emotion detected by the model on a local video.
 <img src="Results/Sad_(video).png" width=50% height=50%>
+
 ---
+
 Surprise emotion detected by the model on a local video.
 <img src="Results/Surprise_(video).png" width=50% height=50%>
+
 ---
+
 Happy emotion detected by the model on a local video.
 <img src="Results/Happy_(video).png" width=50% height=50%>
 
 
 6.  **THREATS POSED BY FACIAL RECOGNITION**
 
-    1.  **Technical inaccuracies**
+  **Technical inaccuracies**
 
 There is a worrying cause of concern as many government-established
 facial recognition surveillance systems have reported high error rates.
@@ -381,7 +389,7 @@ colour](https://www.theverge.com/2018/2/11/17001218/facial-recognition-software-
 There is a lot of concern against this issue as this may result in the
 exploitation of minorities when the technology becomes more mainstream.
 
-2.  **Lack of user consent**
+  **Lack of user consent**
 
 The primary concern raised by citizens regarding facial recognition is
 the lack of user consent involved in the implementation process. CCTV
@@ -393,7 +401,7 @@ citizens compromising their privacy. If used carelessly, every citizen
 can turn into a walking ID card, which leads to privacy, ethics, and
 security concerns.
 
-3.  **Identity fraud**
+  **Identity fraud**
 
 If facial data gets compromised, it poses huge threats to governments as
 well as ordinary citizens. If the security measures employed with facial
@@ -402,7 +410,7 @@ spoof other peoples' identities to carry out illegal activities. This
 may result in huge financial losses if the data required for financial
 transactions gets stolen or duplicated.
 
-4.  **Unclear legal or regulatory framework**
+  **Unclear legal or regulatory framework**
 
 There is a lack of detailed and specific information regarding the use
 of facial recognition technology among common citizens. Most countries
@@ -412,7 +420,7 @@ the technology. Governments or business organizations can use the facial
 recognition data without the knowledge or consent of the people and use
 them in unapproved ways.
 
-5.  **Unethical use**
+  **Unethical use**
 
 One of the significant dangers of facial recognition is the unethical
 use of technology. Gathering facial data without consent is one thing.
@@ -424,15 +432,15 @@ compromising the data of unaware citizens. This not only violates an
 individual's right to privacy but also infringes his right to
 information.
 
-6.  **Data theft**
+  **Data theft**
 
 Facial recognition software depends on and generates a large amount of
 data. Storage of data becomes a major concern with this technology.
 However, the prevention of data theft is a bigger concern regarding
 technology. Database hacking can compromise the data of thousands, if
-not millions of people. There have been numerous instances of [data
+not millions of people. There have been numerous instances of data
 theft from publicly accessible
-databases](https://www.forbes.com/sites/zakdoffman/2019/08/14/new-data-breach-has-exposed-millions-of-fingerprint-and-facial-recognition-records-report/#49711dc946c6).
+databases.
 Prevention of data theft should be one of the priorities while
 implementing facial recognition technologies. Once the user data is
 compromised, it is compromised forever. This poses a significant threat
@@ -447,13 +455,6 @@ about 64%. This can be used to detect emotions in a locally stored video
 file or real-time through the webcam feed.
 
 <img src="Results/Accuracy_and_loss.png">
-
-  ---------- ---------- ------------
-             Training   Validation
-  Accuracy   64.1%      63.0%
-  
-  Loss       0.948      0.997
-  ---------- ---------- ------------
 
 For further enhancements in future, both facial recognition and facial
 attribute analysis including age and gender can be added to the project
