@@ -1,3 +1,5 @@
+# Emotion Recognition using Keras
+
 ***Abstract:** The interaction between human beings and computers will
 be more natural if computers are able to perceive and respond to human
 non-verbal communication such as emotions. In recent years deep learning
@@ -80,7 +82,7 @@ real-time facial expression recognition on video and image data.
 
 2.  **TOOLS USED**
 
-    1.  **TensorFlow**
+  **TensorFlow**
 
 TensorFlow is a [free](https://en.wikipedia.org/wiki/Free_software) and
 [open-source](https://en.wikipedia.org/wiki/Open-source_software)
@@ -95,7 +97,7 @@ networks](https://en.wikipedia.org/wiki/Neural_networks). It is used for
 both research and production at
 [Google](https://en.wikipedia.org/wiki/Google).‍
 
-2.  **Keras**
+  **Keras**
 
 Keras is an
 [open-source](https://en.wikipedia.org/wiki/Open-source_software)
@@ -123,7 +125,7 @@ to create deep learning models based on TensorFlow or Theano. Keras is
 designed to quickly define deep learning models. Well, Keras is an
 optimal choice for deep learning applications.
 
-**OpenCV**
+  **OpenCV**
 
 OpenCV (Open Source Computer Vision Library) is a [library of
 programming
@@ -148,7 +150,7 @@ discipline that explains how to reconstruct, interrupt, and understand a
 present in the scene. It deals with modeling and replicating human
 vision using computer software and hardware.
 
-3.  **Flask**
+  **Flask**
 
 Flask is a micro [web
 framework](https://en.wikipedia.org/wiki/Web_framework) written in
@@ -174,7 +176,7 @@ Werkzeug is a WSGI toolkit, which implements requests, response objects,
 and other utility functions. This enables building a web framework on
 top of it. The Flask framework uses Werkzeug as one of its bases.
 
-4.  **Jupyter**
+  **Jupyter**
 
 Project Jupyter is a [non-profit
 organization](https://en.wikipedia.org/wiki/Nonprofit_organization)
@@ -199,9 +201,6 @@ The dashboard of the application not only shows the notebook documents
 that have been made and can reopen but can also be used to manage the
 running kernels and shut them down if necessary.
 
-1.  
-
-2.  
 
 3.  **DATASET**
 
@@ -279,7 +278,7 @@ speeds up the training to about 9 minutes per epoch. model.summary()
 function is used to output all the parameters which the Model will have
 to learn (around 3 million in this case).
 
-![](media/image1.png){width="6.268055555555556in"
+![](Results/CNN.png){width="6.268055555555556in"
 height="1.5347222222222223in"}
 
 4.  **Training and evaluating the Model**
@@ -340,8 +339,8 @@ real-time through a webcam.
 
 5.  **OUTCOME**
 
-![](media/image2.png){width="5.2125in"
-height="3.6944444444444446in"}![](media/image3.png){width="5.2034722222222225in"
+![](../Results/Accuracy per epoch.png){width="5.2125in"
+height="3.6944444444444446in"}![](Results/Loss per epoch.png){width="5.2034722222222225in"
 height="3.53125in"}**\
 **
 
@@ -440,6 +439,7 @@ file or real-time through the webcam feed.
   ---------- ---------- ------------
              Training   Validation
   Accuracy   64.1%      63.0%
+  
   Loss       0.948      0.997
   ---------- ---------- ------------
 
