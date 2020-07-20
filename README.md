@@ -339,23 +339,23 @@ real-time through a webcam.
 
 5.  **OUTCOME**
 
-![](Results/Accuracy%20per%20epoch.png){width="5.2125in"
-height="3.6944444444444446in"}![](Results/Loss per epoch.png){width="5.2034722222222225in"
+![](Results/Accuracy_per_epoch.png){width="5.2125in"
+height="3.6944444444444446in"}![](Results/Loss_per_epoch.png){width="5.2034722222222225in"
 height="3.53125in"}**\
 **
 
-![](media/image4.png){width="6.325in"
-height="3.3833333333333333in"}![](media/image5.png){width="6.268055555555556in"
+![](Results/Neutral_(webcam).png){width="6.325in"
+height="3.3833333333333333in"}![](Results/Happy_(webcam).png){width="6.268055555555556in"
 height="3.3666666666666667in"}
 
 **\
-**![](media/image6.png){width="6.268055555555556in"
-height="3.345138888888889in"}![](media/image7.png){width="6.268055555555556in"
+**![](Results/Disgust_(video).png){width="6.268055555555556in"
+height="3.345138888888889in"}![](Results/Sad_(video).png){width="6.268055555555556in"
 height="3.345238407699038in"}**\
 **
 
-![](media/image8.png){width="6.268055555555556in"
-height="3.36875in"}![](media/image9.png){width="6.268055555555556in"
+![](Results/Surprise_(video).png){width="6.268055555555556in"
+height="3.36875in"}![](Results/Happy_(video).png){width="6.268055555555556in"
 height="3.3333333333333335in"}**\
 **
 
@@ -436,7 +436,7 @@ expressions of human beings. The Model produces an accuracy rate of
 about 64%. This can be used to detect emotions in a locally stored video
 file or real-time through the webcam feed.
 
-![](Results/Accuracy and loss.png)
+![](Results/Accuracy_and_loss.png)
 
   ---------- ---------- ------------
              Training   Validation
