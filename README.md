@@ -1,21 +1,5 @@
 # Emotion Recognition using Keras
 
-***Abstract:** The interaction between human beings and computers will
-be more natural if computers are able to perceive and respond to human
-non-verbal communication such as emotions. In recent years deep learning
-has progressed much in the field of image classification. The project
-titled "Emotion Recognition using Keras" has been developed to use
-Convolutional Neural Networks (CNNs) to detect the emotion state of the
-human. A data set of different facial expression is used which contains
-different emotes for machine learning. These different emotes used for
-training are "angry, disgust, fear, happy, neutral, sad and surprise".
-The labelled facial images from facial expression dataset are sent to
-CNN and CNN is trained by these images. Then, proposed CNN model makes a
-determination which facial expression is performed. Recognition can be
-performed on a locally stored video file or real-time through a live
-webcam feed using OpenCV. The web application interface is built using
-Flask.*
-
 1.  **INTRODUCTION**
 
 A facial recognition system is a technology capable of identifying or verifying a person from a digital image or a video frame from a video source. There are multiple methods in which facial recognition systems work, but in general, they work by comparing selected facial features from given image with faces within a database. It is also described as a Biometric Artificial Intelligence based application that can uniquely identify a person by analyzing patterns based on the person's facial textures and shape.
