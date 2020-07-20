@@ -339,16 +339,17 @@ real-time through a webcam.
 
 5.  **OUTCOME**
 
-![](Results/Accuracy_per_epoch.png){width="5.2125in"
-height="3.6944444444444446in"}![](Results/Loss_per_epoch.png){width="5.2034722222222225in"
-height="3.53125in"}**\
-**
+<img src="/Results/Neutral_(webcam)" alt="neutral"	title="face" width="150" height="100" />
 
-![](Results/Neutral_(webcam).png){width="6.325in"
-height="3.3833333333333333in"}![](Results/Happy_(webcam).png){width="6.268055555555556in"
-height="3.3666666666666667in"}
+![](Results/Accuracy_per_epoch.png){:height="50%" width="50%"}
 
-**\
+![](Results/Loss_per_epoch.png){:height="50%" width="50%"}
+
+![](Results/Neutral_(webcam).png){:height="50%" width="50%"}
+
+![](Results/Happy_(webcam).png){:height="50%" width="50%"}
+
+
 **![](Results/Disgust_(video).png){width="6.268055555555556in"
 height="3.345138888888889in"}![](Results/Sad_(video).png){width="6.268055555555556in"
 height="3.345238407699038in"}**\
@@ -358,6 +359,11 @@ height="3.345238407699038in"}**\
 height="3.36875in"}![](Results/Happy_(video).png){width="6.268055555555556in"
 height="3.3333333333333335in"}**\
 **
+
+img[alt=thumbnail] {
+   width:150px;
+   height:100px;
+}
 
 6.  **THREATS POSED BY FACIAL RECOGNITION**
 
