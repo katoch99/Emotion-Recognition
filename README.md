@@ -194,16 +194,6 @@ real-time through a webcam.
 
 ---
 
->Neutral emotion detected by the model through webcam.
-<img src="Results/Neutral_(webcam).png" width=50% height=50%>
-
----
-
->Happy emotion detected by the model through webcam.
-<img src="Results/Happy_(webcam).png" width=50% height=50%>
-
----
-
 >Disgust emotion detected by the model on a local video.
 <img src="Results/Disgust_(video).png" width=50% height=50%>
 
